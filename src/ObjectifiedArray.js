@@ -1,7 +1,5 @@
 import * as Util from './Util'
 
-var canUseProxy = typeof Proxy === 'function';
-
 var OArray = function (arr, option) {
     if (!Util.isArray(arr)) arr = [];
     if (!Util.isObject(option)) option = {};
